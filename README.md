@@ -5,17 +5,18 @@ Permite cadastrar, pesquisar, editar, listar e excluir clientes. Inclui validaç
 
 
 ## Estrutura de Pastas
+```text
 crud-php/
 │
 ├── frontend/
 │   ├── css/
 │   │   └── style.css
 │   ├── img/
-│   ├── js/
-│   │   ├── buttons.js
-│   │   ├── masks.js
-│   │   ├── pesquisar.js
-│   │   └── script.js
+│   └── js/
+│       ├── buttons.js
+│       ├── masks.js
+│       ├── pesquisar.js
+│       └── script.js
 │
 ├── conexao.php
 ├── novo.php
@@ -26,6 +27,7 @@ crud-php/
 ├── listar.php
 ├── index.html
 └── sistema_clientes.sql
+```
 
 ## Instalação e Uso
 
