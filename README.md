@@ -1,4 +1,4 @@
-Sistema de Clientes – CRUD em PHP
+## Sistema de Clientes – CRUD em PHP
 
 Sistema simples de cadastro de clientes (CRUD) desenvolvido em PHP, MySQL, HTML, CSS e JavaScript.
 Permite cadastrar, pesquisar, editar, listar e excluir clientes. Inclui validações no frontend e backend.
