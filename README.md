@@ -46,7 +46,7 @@ Navegador
 
 ## Executar o sistema
 1 - Coloque a pasta crud-php dentro de: C:\xampp\htdocs\
-2 - Inicie o Apache e MySQL no XAMPP
+2 - Inicie o Apache e MySQL no XAMPP.
 3 - Abra no navegador: http://localhost/crud-php/index.html
 
 ## 🔧 Funcionalidades
