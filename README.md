@@ -8,25 +8,26 @@ Permite cadastrar, pesquisar, editar, listar e excluir clientes. Inclui validaç
 ```text
 crud-php/
 │
-├── frontend/
+├── frontend/                 
 │   ├── css/
-│   │   └── style.css
-│   ├── img/
-│   └── js/
-│       ├── buttons.js
-│       ├── masks.js
-│       ├── pesquisar.js
-│       └── script.js
+│   │   └── style.css           # Estilos do layout e formatação visual
+│   ├── img/                    # Ícones usados nos botões e interface
+│   ├── js/
+│   │   ├── buttons.js          # Lógica dos botões (listar, novo, limpar etc.)
+│   │   ├── masks.js            # Máscaras de CPF, celular e outros campos
+│   │   ├── pesquisar.js        # Função para pesquisa com modal
+│   │   └── script.js           # Funções gerais da interface
 │
-├── conexao.php
-├── novo.php
-├── salvar.php
-├── editar.php
-├── excluir.php
-├── pesquisar.php
-├── listar.php
-├── index.html
-└── sistema_clientes.sql
+├── conexao.php                 # Conexão com o banco de dados (MySQL)
+├── novo.php                    # Formulário para cadastrar novo cliente
+├── salvar.php                  # Grava os dados do novo cliente no banco
+├── editar.php                  # Carrega dados e salva edições
+├── excluir.php                 # Exclui um cliente do sistema
+├── pesquisar.php               # Backend da pesquisa (retorna resultados)
+├── listar.php                  # Lista completa dos clientes cadastrados
+├── index.html                  # Tela inicial do sistema
+└── sistema_clientes.sql        # Script para criar o banco + tabela
+
 ```
 
 ## Instalação e Uso
